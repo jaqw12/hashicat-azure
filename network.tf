@@ -2,7 +2,5 @@ module "network" {
   source  = "app.terraform.io/instruqttest/network/azurerm"
   version = "3.5.0"
   # insert required variables here
-  variable "resource_group_name" {
-  description = "The name of the RG."
-}
+  resource_group_name = "test12"
 }
